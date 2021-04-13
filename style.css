@@ -141,7 +141,7 @@ html {
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 600;
-    margin-left: -3px;
+    margin-left: 0;
 }
 
 .home .home-content .text-3 {
@@ -222,7 +222,7 @@ section .title::after {
     left: 50%;
     font-size: 20px;
     color: var(--first-color);
-    padding: 5px;
+    padding: 3px;
     background: var(--white-color);
     transform: translate(-50%);
 }
@@ -300,6 +300,7 @@ section .title::after {
 
 .services .serv-content .card {
     width: calc(33% - 20px);
+    height: 40vh;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -342,7 +343,11 @@ section .title::after {
 }
 
 .skills .skills-content .column {
+    display: grid;
     width: calc(50% - 30px);
+    justify-content: center;
+    align-content: center;
+    
 }
 
 .skills .skills-content .column .text {
@@ -362,6 +367,7 @@ section .title::after {
 }
 
 .projects .carousel .card {
+    height: 65vh;
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -438,17 +444,23 @@ section .title::after {
     content: "Get in Touch";
 }
 
-.contact .contact-content .left {
-    display: flex;
+.contact .contact-content .column {
+    display: block;
     justify-content: center;
-    margin: 0 auto 60px;
+    align-content: center;
+    margin: 0 auto 1.75rem;
+    line-height: 5rem;
 }
 
-.contact .contact-content .right {
+.contact .contact-content h3{
+    display: flex;
+    justify-content: center;
+}
+/* .contact .contact-content .right {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
-}
+} */
 
 /* footer */
 footer {
