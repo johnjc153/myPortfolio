@@ -1,0 +1,228 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background: #1f1f1f;
+}
+
+
+//button animation
+#button:hover .button-icon{
+    transform: translateX(0.5rem);
+    transition: .3s;
+}
+
+//nav
+.navbar{
+    z-index: 2;
+    font-weight: 400;
+    .navbar-brand{
+        font-weight: 600;
+    }
+}
+
+.nav-item{
+    font-size: 1.4rem;
+}
+
+.nav-link:hover {
+    transition: border .2s;
+    border-bottom: .5px solid white;
+}
+
+//home
+#home{
+    background: url("../imgs/food1.jpg") bottom center/ cover no-repeat;
+    min-height: 750px;
+    position: relative;
+    #header{
+        z-index: 0;
+        .display-5{
+            font-weight: bold;
+        }
+    }
+    #overlay{
+        background: rgba(0,0,0,.4);
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    .lead{
+        font-weight: bold;
+    }
+}
+
+
+//gallery
+.w-100{
+    width: 100% !important;
+    height: 65vh;
+}
+
+
+//nut plans
+.price-area{
+    margin-top: 1.563rem;
+}
+.single-pricing{
+    position: relative;
+    text-align: center;
+    background-color: #262626;
+    color: #fff;
+    margin: 0 1.25rem;
+    padding: 1.875rem;
+    border: 1.875rem;
+}
+.head-text{
+    background-color: transparent;
+    border-bottom: 0;
+    padding: .938rem 0;
+    border-radius: .188rem .188rem 0 0;
+    h3{
+        margin: 0;
+        font-size: 1.25rem;
+        letter-spacing: .063rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fafafa;
+    }
+}
+.single-pricing .price-area span {
+    font-weight: 600;
+}
+.price-area{
+    position: relative;
+    padding: .625rem;
+    color: #fff;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 1;
+    span.duration{
+        display: block;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: #888;
+        letter-spacing: .063rem;
+        color: #999;
+        margin: 1.25rem 0 0 .188rem;
+    }
+}
+
+.price-area:after, .feature-area{
+    border: 0;
+}
+.feature-area{  
+    ul{
+        margin: 0;
+        padding: .938rem 0;
+        list-style: none;
+    }
+     li{
+        padding: .375rem 0;
+        font-size: .875rem;
+        font-weight: 800;
+    }
+}
+.btn-area{
+    padding: 15px 30px;
+}
+.btn-area a{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 0 1.375rem;
+    font-size: .875rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #48b61c;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .063rem;
+    border: none;
+}
+
+.label-area{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    text-align: center;
+    border-top-right-radius: .188px;
+    background: red;
+    span{
+        position: absolute;
+        top: 1.375rem;
+        right: .188rem;
+        text-transform: uppercase;
+        transform: rotate(45deg);
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: .063rem;
+    }
+}
+
+.label-area:before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px 0 0 80px;
+    border-color: transparent transparent transparent #262626;
+}
+
+
+//about
+#about{
+    p{
+        line-height: 2.7rem;
+        letter-spacing: .063rem;
+    }
+    
+    img{
+        width: 100% !important;
+        height: 65vh;
+    }
+    
+}
+
+
+@media(max-width: 768px) {
+    .navbar{
+        .nav-link:hover{
+            border-bottom: none;
+        }
+    }
+    #home{
+        min-height: 500px;
+        h1{
+            font-size: .25rem;
+        }
+    }
+    .w-100{
+        width: 100% !important;
+        height: 50vh;
+    }
+    .single-pricing{
+        margin-bottom: 1.875rem;
+         h3{
+            font-size: 1.25rem;
+        }
+    }
+
+}
+
+@media(max-width: 325px){
+    .w-100{
+        width: 100% !important;
+        height: 20vh;
+    }
+}
