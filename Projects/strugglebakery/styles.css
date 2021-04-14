@@ -188,12 +188,22 @@ img{
     color: var(--first-color);
 }
 
+.nav_logo {
+    font-weight: 600;
+    font-size: var(--mb-3);
+}
+
+#theme-button {
+    padding-left: 1.3rem;
+}
+
 .nav_link{
     transition: .3s;
 }
 
 .nav_link:hover{
     color: var(--first-color);
+    border-bottom: .5px solid var(--first-color);
 }
 
 .nav_toggle{
@@ -266,6 +276,7 @@ img{
 
 .home_img{
     width: 300px;
+    border-radius: .5rem;
     justify-self: center;
 }
 
@@ -308,11 +319,15 @@ img{
     text-align: center;
 }
 
+.ser_mid{
+    margin-top: var(--mb-3);
+}
+
 .services_img{
     width: 64px;
     height: 64px;
     fill: var(--first-color) !important;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-3);
 }
 
 .services_img #sasvg{
@@ -322,7 +337,7 @@ img{
 .services_title{
     font-size: var(--h3-font-size);
     color: var(--title-color);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-2);
 }
 
 .services_description{
@@ -449,6 +464,10 @@ img{
 }
 
 .footer_link:hover{
+    color: var(--first-color);
+}
+
+.footer_social:hover {
     color: var(--first-color);
 }
 

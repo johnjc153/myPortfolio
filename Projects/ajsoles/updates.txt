@@ -1,6 +1,5 @@
 v.01
- 
-    updates fixes:
+    updates/fixes:
         -top banner-
             'AJ Soles' in the top bar be all upper case
             cart icon repositioned 
@@ -19,5 +18,3 @@ v.01
         -SHOP-
             centered directory 
 
-the page directory is all the way on the left side of the screen, would look
-better centered under the cards for shoes. 

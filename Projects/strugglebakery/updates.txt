@@ -1,0 +1,13 @@
+v.01
+    updates/fixes:
+        -Nav-
+            changed spacing
+            added border
+            changed logo size and font to mb-3 and 600 from default
+        -Home-
+            added border to img
+        -Services-
+            moved alignment of the services title down from svgs
+        -Footer-
+            added hover effect to social keys
+        
