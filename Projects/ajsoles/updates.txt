@@ -1,0 +1,23 @@
+v.01
+ 
+    updates fixes:
+        -top banner-
+            'AJ Soles' in the top bar be all upper case
+            cart icon repositioned 
+            fixed banner scroll 
+        -HOME-
+            fixed spacing issues
+            changed background color of button
+        -Specials-
+            specials card slightly rasied
+        -NEW-
+            shoe collection card aligned 
+        -Email-
+            lowered the email card
+        -FOOTER-
+            added store link to footer
+        -SHOP-
+            centered directory 
+
+the page directory is all the way on the left side of the screen, would look
+better centered under the cards for shoes. 

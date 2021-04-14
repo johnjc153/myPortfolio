@@ -18,6 +18,7 @@
     /* --dark-color-lighten: rgba(196, 205, 223, .5); */
     --dark-color-lighten: rgba(145, 130, 101, .2);
     /* F0F1F3 */
+    --grey-color: rgb(199, 214, 238);
 
     /* font typography */
     --body-font: "Poppin", sans-serif;
@@ -188,6 +189,10 @@ img {
     color: var(--first-color);
 }
 
+.nav_shop{
+    padding-left: 1rem;
+}
+
 /* show menu  */
 .show {
     left: 0;
@@ -260,7 +265,7 @@ img {
 }
 
 .home_description {
-    margin-bottom: var(--mb-6);
+    margin-bottom: var(--mb-3);
 }
 
 /* buttons */
@@ -277,7 +282,7 @@ img {
 .button:hover {
     transform: translateY(-0.25rem);
     color: var(--dark-color);
-    background-color: var(--white-color);
+    background-color: var(--grey-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -319,6 +324,7 @@ img {
     background-color: var(--dark-color-lighten);
     border-radius: 0.5rem;
     transition: 0.3s;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .sneaker_sale {
@@ -364,6 +370,12 @@ img {
 .sneaker_pages{
     margin-top: var(--mb-6);
     margin-left: var(--mb-2);
+    
+}
+
+.sneaker_pages .directory {
+    display: flex;
+    justify-content: center;
 }
 
 .sneaker_page{
@@ -458,7 +470,7 @@ img {
     justify-content: center;    
     background-color: var(--dark-color-lighten);
     border-radius: .5rem;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .new_mens-img{
@@ -507,6 +519,7 @@ img {
     align-items: center;
     background-color: rgba(25, 36, 54, .3);
     transition: .3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .new_sneaker-card:hover .new_sneaker-overlay{
@@ -520,6 +533,7 @@ img {
     padding: 2rem .5rem;
     border-radius: .5rem;
     text-align: center;
+    margin-top: 4rem;
 }
 
 .newsletter_title{
