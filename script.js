@@ -26,7 +26,7 @@ $(document).ready(function () {
     // typing animation
     var typed = new Typed(".typing", {
         strings: ["UX/UI_Designer", "Game_Developer", "Web_Developer"],
-        typedSpeed: 200,
+        typedSpeed: 800,
         backSpeed: 60,
         loop: true
     });

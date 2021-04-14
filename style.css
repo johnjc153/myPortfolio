@@ -368,7 +368,7 @@ section .title::after {
 }
 
 .projects .carousel .card {
-    height: 65vh;
+    height: 60vh;
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -414,6 +414,7 @@ section .title::after {
 .projects .card .box{
     color: var(--white-color);
 }
+
 
 .owl-dots {
     text-align: center;
