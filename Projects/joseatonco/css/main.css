@@ -8014,7 +8014,8 @@ body {
 
 .w-100 {
   width: 100% !important;
-  height: 60vh; }
+  height: 70vh;
+  border-radius: 1rem; }
 
 .price-area {
   margin-top: 1.563rem; }
@@ -8026,7 +8027,8 @@ body {
   color: #fff;
   margin: 0 1.25rem;
   padding: 1.875rem;
-  border: 1.875rem; }
+  border: 1.875rem;
+  height: 60vh; }
 
 .head-text {
   background-color: transparent;
@@ -8135,13 +8137,14 @@ body {
     border-bottom: none; }
 
   #home {
-    min-height: 500px; }
-    #home h1, #home .h1 {
-      font-size: .25rem; }
+    min-height: 550px; }
+    #home .h1, #home .h1 {
+      font-size: 1rem; }
 
   .w-100 {
     width: 100% !important;
-    height: 50vh; }
+    height: 50vh; 
+    border-radius: 1rem;}
 
   .single-pricing {
     margin-bottom: 1.875rem; }

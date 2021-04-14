@@ -1,0 +1,6 @@
+v.01
+    updats/fixes:
+        -Pricing- (both work out and nutrition plans)
+            fixed cards to be same heights
+            fixed spacing issue
+            
