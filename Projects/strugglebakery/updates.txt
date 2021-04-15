@@ -11,3 +11,5 @@ v.01
         -Footer-
             added hover effect to social keys
         
+v.02 
+    deleted photos
