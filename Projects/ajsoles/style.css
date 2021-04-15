@@ -402,6 +402,7 @@ img {
     padding: 2rem;
     border-radius: 0.5rem;
     transition: 0.3s;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .collection_data {
@@ -440,6 +441,7 @@ img {
     background-color: var(--dark-color-lighten);
     border-radius: .5rem;
     justify-content: center;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .offer_data{
@@ -471,6 +473,7 @@ img {
     background-color: var(--dark-color-lighten);
     border-radius: .5rem;
     padding: 1.5rem;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .new_mens-img{
@@ -502,6 +505,7 @@ img {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .new_sneaker-img{

@@ -18,3 +18,5 @@ v.01
         -SHOP-
             centered directory 
 
+v.02
+    added shadows to cards to give contrast in pages
