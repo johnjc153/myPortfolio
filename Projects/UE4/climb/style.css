@@ -177,12 +177,11 @@ section {
     padding: 100px 0;
 }
 
-.about,
-.services {
+.content {
     font-family: "Poppins", sans-serif;
 }
 
-.about .about-content {
+.content .project-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -222,15 +221,47 @@ section .title::after {
 }
 
 /* about section styling */
-.about .title::after {
+.content .title::after {
     content: "About this Project";
 }
 
-.about .about-content .left {
+.content .project-content .left {
     width: 50%;
 }
 
-.about .about-content .left video {
+.content .project-content .left .picture1 {
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content .project-content .right .picture2 {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content .picture3 {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content .project-content .right .picture4{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content .project-content .left video {
     height: 500px;
     width: 600px;
     object-fit: cover;
@@ -238,7 +269,7 @@ section .title::after {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about .about-content .right video {
+.content .project-content .right video {
     height: 500px;
     width: 600px;
     object-fit: cover;
@@ -246,41 +277,45 @@ section .title::after {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about .about-content .right {
+.content .project-content .right {
     width: 50%;
 }
 
-.about .about-content .right .text {
+.content .project-content .left .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    justify-content: end;
+    align-content: center;
 }
 
-.about .about-content .right .text {
+.content .project-content .right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align:  end;
+    align-content: center;
 }
 
-.about .about-content .right .text span {
+.content .project-content .right .text span {
     color: var(--first-color);
 }
 
-.about .about-content .left .text span {
+.content .project-content .left .text span {
     color: var(--first-color);
 }
 
-.about .about-content .right p {
+.content .project-content .right p {
+    text-align: end;
+    align-items: center;
+}
+
+.content .project-content .left p {
     text-align: justify;
     align-items: center;
 }
 
-.about .about-content .left p {
-    text-align: justify;
-    align-items: center;
-}
-
-.about .about-content .right a {
+.content .project-content .right a {
     display: inline-block;
     background: var(--first-color);
     color: var(--white-color);
@@ -293,7 +328,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.about .about-content .left a {
+.content .project-content .left a {
     display: inline-block;
     background: var(--first-color);
     color: var(--white-color);
@@ -306,14 +341,19 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.about .about-content .right a:hover {
+.content .project-content .right a:hover {
     color: var(--first-color);
     background: none;
 }
 
-.about .about-content .left a:hover {
+.content .project-content .left a:hover {
     color: var(--first-color);
     background: none;
+}
+
+#sec2, #sec4, #sec6 {
+    color: var(--white-color);
+    background: var(--dark-color);
 }
 
 /* responsive medie query start */
@@ -322,13 +362,13 @@ section .title::after {
         margin-left: 0px;
     }
 
-    .about .about-content .right p {
+    .content .project-content .right p {
         padding: 2rem;
     }
 }
 
 @media (max-width: 1104px) {
-    .about .about-content .left img {
+    .content .project-content .left img {
         height: 350px;
         width: 350px;
     }
@@ -398,33 +438,30 @@ section .title::after {
         max-width: 800px;
     }
 
-    .about .about-content .column {
+    .content .project-content .column {
         width: 100%;
     }
 
-    .about .about-content .left {
+    .content .project-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
 
-    .about .about-content .right {
+    .content .project-content .right {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    
+    .content .project-content .left p{
+        flex: 100%;
+    }
+    
+    .content .project-content .right p{
         flex: 100%;
     }
 
-    .services .serv-content .card {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-
-    .skills .skills-content .column li {
-        font-size: 20px;
-        padding: 8px;
-    }
-
-    .skills .skills-content .column .text {
-        font-size: 25px;
-    }
 }
 
 @media (max-width: 690px) {
@@ -444,28 +481,14 @@ section .title::after {
         padding: 8px 20px;
     }
 
-    .services .serv-content .card {
-        width: 100%;
+    .content .project-content .left{
+        display: block;
+    }
+    
+    .content .project-content .right p{
+        display: block;
     }
 
-    .skills .skills-content .column li {
-        font-size: 15px;
-        padding: 6px;
-    }
-
-    .skills .skills-content .column .text {
-        font-size: 20px;
-    }
-
-    .contact .contact-content .left {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-
-    .contact .contact-content .right {
-        flex: 100%;
-    }
 }
 
 @media (max-width: 500px) {
@@ -481,15 +504,11 @@ section .title::after {
         font-size: 27px;
     }
 
-    .skills .skills-content .column li {
-        font-size: 14px;
-        padding: 4px;
+    .content .project-content .right p {
+        padding: 1.5rem;
     }
 
-    .skills .skills-content .column .text {
-        font-size: 16px;
-    }
-    .about .about-content .right p {
+    .content .project-content .left p {
         padding: 1.5rem;
     }
 }
