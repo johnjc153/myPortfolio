@@ -367,7 +367,7 @@ section .title::after {
 }
 
 .projects .carousel .card {
-    height: 60vh;
+    height: 65vh;
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
