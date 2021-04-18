@@ -13,3 +13,9 @@ v.01
         
 v.02 
     deleted photos
+
+v.03
+    -navbar-
+    changed nav logo to a larger font size
+    -scrollanim-
+    changed distance from 30px to 20px
