@@ -199,7 +199,7 @@ section .title {
     font-family: "Ubuntu", sans-serif;
 }
 
-section .title::before {
+/* section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -219,7 +219,7 @@ section .title::after {
     padding: 3px;
     background: var(--white-color);
     transform: translate(-50%);
-}
+} */
 
 .code {
     padding-top: 5rem;
@@ -241,9 +241,9 @@ section .title::after {
 }
 
 /* content section styling */
-.content .title::after {
+/* .content .title::after:nth-child(0) {
     content: "About this Project";
-}
+} */
 
 .content .project-content .left {
     width: 50%;
@@ -385,6 +385,16 @@ section .title::after {
     .content .project-content .right p {
         padding: 2rem;
     }
+
+    .content .project-content .left video {
+        height: auto;
+        width: 100%;
+    }
+
+    .content .project-content .right video {
+        height: auto;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1104px) {
@@ -399,6 +409,27 @@ section .title::after {
     }
 
     .content .project-content .right video {
+        height: auto;
+        width: 100%;
+    }
+
+    .content .project-content .left .picture1 {
+        height: auto;
+        width: 100%;
+    }
+    
+    .content .project-content .right .picture2 {
+        height: auto;
+        width: 100%;
+    }
+    
+    .content .project-content .left .picture3 {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .content .project-content .right .picture4 {
         height: auto;
         width: 100%;
     }
@@ -576,3 +607,9 @@ section .title::after {
     }
 
 }
+
+/* @media (max-width: 360px) {
+    .max-width {
+        padding: 0 23px;
+    }
+} */

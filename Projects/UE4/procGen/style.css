@@ -384,13 +384,6 @@ section .title::after {
     .content .project-content .right p {
         padding: 2rem;
     }
-}
-
-@media (max-width: 1104px) {
-    .content .project-content .left img {
-        height: 350px;
-        width: 350px;
-    }
 
     .content .project-content .left video {
         height: auto;
@@ -401,6 +394,17 @@ section .title::after {
         height: auto;
         width: 100%;
     }
+}
+
+@media (max-width: 1104px) {
+    .content .project-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+
+    
+
+    
 
     /* .home .max-width {
         margin-left: 0px;
