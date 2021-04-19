@@ -7984,14 +7984,11 @@ body {
   z-index: 2;
   font-weight: 400; }
   .navbar .navbar-brand {
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: x-large; }
 
 .nav-item {
   font-size: 1.4rem; }
-
-.nav-link:hover {
-  transition: border .2s;
-  border-bottom: .5px solid white; }
 
 #home {
   background: url("../imgs/food1.jpg") bottom center/cover no-repeat;
@@ -8000,22 +7997,34 @@ body {
   #home #header {
     z-index: 0; }
     #home #header .display-5 {
-      font-weight: bold; }
+      font-weight: 400; }
   #home #overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 0; }
+  #home .display-1{
+    font-weight: 400;
+  }
   #home .lead {
     font-weight: bold; }
 
 .w-100 {
-  width: 100% !important;
-  height: 70vh;
+  width: 100vh;
+  height:  100%;
   border-radius: 1rem; }
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important; 
+}
 
 .price-area {
   margin-top: 1.563rem; }
@@ -8028,7 +8037,9 @@ body {
   margin: 0 1.25rem;
   padding: 1.875rem;
   border: 1.875rem;
-  height: 60vh; }
+  height: 60vh; 
+  border-radius: 1rem;}
+  
 
 .head-text {
   background-color: transparent;
@@ -8104,12 +8115,13 @@ body {
   top: -1px;
   right: -1px;
   text-align: center;
-  border-top-right-radius: .188px;
-  background: red; }
+  border-top-right-radius: 0px;
+  background: red;
+  border-radius: 1rem; }
   .label-area span {
     position: absolute;
-    top: 1.375rem;
-    right: .188rem;
+    top: 1.30rem;
+    right: .145rem;
     text-transform: uppercase;
     transform: rotate(45deg);
     font-weight: 700;

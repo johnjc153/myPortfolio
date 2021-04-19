@@ -3,4 +3,20 @@ v.01
         -Pricing- (both work out and nutrition plans)
             fixed cards to be same heights
             fixed spacing issue
-            
+v.02
+    -navbar-
+    got rid of the underline border
+    increase size of nav brand text
+    added spacing to the nav bar links
+    -home-
+    made background picture darker to contrast text
+    increased font weight of display-1
+    decreased the font weight for display-5 and lead
+    -gallery-
+    changed the transition speed and animation
+    because Im stupid I set the gallery to a set vh height and width to 100% so it looked vertical: changed :]
+    text align start
+    padding on button and arrow
+    -Pricing-
+    beveled edges
+    centered text on label-area 
