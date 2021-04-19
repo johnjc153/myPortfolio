@@ -18,4 +18,8 @@ v.03
     -navbar-
     changed nav logo to a larger font size
     -scrollanim-
-    changed distance from 30px to 20px
+    changed distance from 30px to 20px and increased interval time for faster transition
+    -services-
+    changed text
+    -contact-
+    made changes to layout and text 

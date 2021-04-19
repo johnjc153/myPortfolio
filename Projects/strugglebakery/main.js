@@ -105,5 +105,5 @@ sr.reveal(`.home_data , .home_img,
 .app_img, .app_data,
 .contact_data, .contact_button,
 .footer_content `, {
-    interval: 200
+    interval: 50
 })
