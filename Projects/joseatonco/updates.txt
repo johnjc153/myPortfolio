@@ -20,3 +20,10 @@ v.02
     -Pricing-
     beveled edges
     centered text on label-area 
+v.03S
+    -gallery-
+    centered text
+    -pricing-
+    changed spacing on cards at 991
+    changed position of popular on cards
+
