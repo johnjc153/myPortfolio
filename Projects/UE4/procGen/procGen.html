@@ -52,15 +52,20 @@
     </section>
     <!-- home section -->
 
-    <div class="code">
-        <iframe class="code-content" src="https://blueprintue.com/render/sp36zbzf" scrolling="no"
-            allowfullscreen></iframe>
-    </div>
+    <section class="content">
+        <div class="container max-width">
 
+            <h2 class="title">The Code</h2>
+            <div class="code">
+                <iframe class="code-content" src="https://blueprintue.com/render/sp36zbzf" scrolling="no"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 
     <section class="content" id="secA">
         <div class="container max-width">
-            <h2 class="title"></h2>
+            <h2 class="title">Demo</h2>
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
@@ -69,8 +74,9 @@
                     </video>
                 </div>
                 <div class="column right">
-                    <!-- <div class="text">I'm John and <span> I love tech</span></div>
-                    <p> </p> -->
+                    <div class="text"><span>This is a simple test</span></div>
+                    <p>A 5x5 section is drawn to the main level in real time, using levels that were already baked to
+                        acheive a procedural main level.</p>
                 </div>
             </div>
         </div>
@@ -84,8 +90,17 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>fadfadfa </p>
+                    <div class="text">How I plan to do<span> better</span></div>
+                    <p>Ideas: add check to enable the one time spawning of special tiles and items.
+                        add checks to ensure that two of the same room don't spawn next to each other.
+                        add a third layer or array to create tiles on the z-axis.
+                        add more unique levels to increase different outcomes
+                        add target points that can communicated to each other, such as "locked doors and keys"
+                        add checks to ensure some levels can spawn together, such as adding doors linking with other
+                        doors
+                        add procedural elements into the arrayed levels themselves to add an extra layer.
+                        performance upgrades: add a loading screen to allow cpu to draw the random tiles to screen
+                    </p>
                 </div>
                 <div class="column right">
                     <video controls>
@@ -100,15 +115,21 @@
 
     <section class="content" id="secA">
         <div class="container max-width">
-            <h2 class="title"></h2>
+            <h2 class="title">Breakdown</h2>
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
                     <img class="picture1" src="imgs/code1.png">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p> dkjfaoidjfiadjoifja[ojfdoiajfodjfoa[jf[oidajfi[ajf</p>
+                    <div class="text">The main<span> variables</span></div>
+                    <p>Level grid size refers to the grid size: any increase here would allow for larger randomized
+                        levels
+                        tiles size is the size of the actual tiles being generated
+                        Streaming level names is the specific array I am using to incorporate the levels
+                        And the random integer is just choosing a number from 0 to 4 muliplying it by 90 to get a random
+                        rotation of the tile
+                    </p>
                 </div>
             </div>
         </div>
@@ -122,8 +143,8 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>fadfadfa </p>
+                    <div class="text">One step<span> at a time</span></div>
+                    <p></p>
                 </div>
                 <div class="column right">
 
@@ -143,9 +164,12 @@
                     <img class="picture3" src="imgs/code3.png">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui error, ut provident deleniti vero
-                        sit animi? Suscipit vel repudiandae commodi? </p>
+                    <div class="text">Putting it all<span> together</span></div>
+                    <p>We append the indexes of the 2 for loops and add that to a unique instanced name(the main level).
+                        we get the length of the array and add it as a targe to the create instance node.
+                        returned values of the x and y locations as well as the random rotation of the tile are set to
+                        the level transform
+                    </p>
                 </div>
             </div>
         </div>
@@ -158,8 +182,11 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>fadfadfa </p>
+                    <div class="text">Drawing to<span> screen</span></div>
+                    <p>From our Create Intance function we set the level transform with the values we calculated. We
+                        then set that to be loaded into the main level. The next thing we set is visibility within the
+                        level. From there you have a procedurally generated level, where you can create detailed levels
+                        that link together</p>
                 </div>
                 <div class="column right">
                     <img class="picture4" src="imgs/code4.png">

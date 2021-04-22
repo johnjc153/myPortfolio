@@ -298,7 +298,8 @@ section .title::after {
 }
 
 .content .project-content .right {
-    width: 50%;
+    width: 45%;
+    margin: 1.5rem;
 }
 
 .content .project-content .left .text {

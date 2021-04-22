@@ -198,7 +198,7 @@ section .title {
     font-family: "Ubuntu", sans-serif;
 }
 
-section .title::before {
+/* section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -207,7 +207,7 @@ section .title::before {
     height: 3px;
     background: var(--dark-color);
     transform: translate(-50%);
-}
+} */
 
 section .title::after {
     position: absolute;
@@ -240,9 +240,9 @@ section .title::after {
 }
 
 /* content section styling */
-.content .title::after {
-    content: "About this Project";
-}
+/* .content .title::after {
+    content: "";
+} */
 
 .content .project-content .left {
     width: 50%;
@@ -297,7 +297,8 @@ section .title::after {
 }
 
 .content .project-content .right {
-    width: 50%;
+    width: 40%;
+    margin: 1.5rem;
 }
 
 .content .project-content .left .text {
