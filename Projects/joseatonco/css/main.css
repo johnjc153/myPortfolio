@@ -10499,10 +10499,12 @@ body {
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  width: 30%;
 }
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 30%;
 }
 
 .price-area {
@@ -10662,9 +10664,8 @@ body {
   }
 
   .w-100 {
-    width: 40vh !important;
+    width: 80vh;
     height: 100%;
-    border-radius: 1rem;
   }
 
   .single-pricing {
@@ -10678,14 +10679,14 @@ body {
 
 @media (max-width: 510px) {
   .w-100 {
-    width: 30vh !important;
+    width: 80vh;
     height: 100%;
   }
 }
 
 @media (max-width: 325px) {
   .w-100 {
-    width: 20vh !important;
+    width: 20vh;
     height: 100%;
   }
 }

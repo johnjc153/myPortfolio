@@ -37,5 +37,9 @@ v.04
 v.05
     -text-
     aligned text center along with pictures
+v.06
+    -gallery-
+    resized prev and next buttons
+    more media queiry corrections
     
 
