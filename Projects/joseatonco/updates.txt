@@ -41,5 +41,8 @@ v.06
     -gallery-
     resized prev and next buttons
     more media queiry corrections
+v.07
+    -text-
+    bit of editing
     
 
