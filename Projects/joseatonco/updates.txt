@@ -34,5 +34,8 @@ v.04
     resized and media queries
     -footer-
     font size of titles
+v.05
+    -text-
+    aligned text center along with pictures
     
 
