@@ -4,6 +4,9 @@ The projects are some of my current or ongoing freelance projects. This is two-f
 and the individuals who have commissioned these sites have a live view of their site as we work through the design process.
 
 Aj Soles
+
 Ajsoles main webpage is largely done on the frontend, currently, he is working getting his business started.
+
 SB and Seaton Co. 
+
 I'm still working closely with Struggle Bakery and Seaton Co. while they are at the very, very early stages of starting their businesses in their respective niches.
