@@ -20,10 +20,19 @@ v.02
     -Pricing-
     beveled edges
     centered text on label-area 
-v.03S
+v.03
     -gallery-
     centered text
     -pricing-
     changed spacing on cards at 991
     changed position of popular on cards
+v.04
+    -about-
+    centered text
+    rounded photo and resized
+    -w-100-
+    resized and media queries
+    -footer-
+    font size of titles
+    
 
