@@ -127,8 +127,8 @@
                         levels
                         tiles size is the size of the actual tiles being generated
                         Streaming level names is the specific array I am using to incorporate the levels
-                        And the random integer is just choosing a number from 0 to 4 muliplying it by 90 to get a random
-                        rotation of the tile
+                        A random integer with an max index of 3, so four postions for four sides, is then mult by 90 to
+                        get the z(yaw) rotation. This spins the drawn segment to face a differnt direction.
                     </p>
                 </div>
             </div>
@@ -143,8 +143,20 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">One step<span> at a time</span></div>
-                    <p></p>
+                    <div class="text">It gets a bit<span> complicated</span></div>
+                    <p>On Event BeginPlay two for loops are called. One nested insde another, so each time the first one
+                        iterates(x) the second (y) does the same. Each loop has a the default starting index of 0, and
+                        the last
+                        index is set to the level grid size varible. These then cast to a create instance node. The
+                        level grid size is then mult buy the tile size
+                        to get the actual size of the tile and then is divided by two. This value is then used to
+                        subtract the value of the tile size mult by the index of each loop to get to transform of both
+                        the x and y locatons of the arrayed objects. This value gives us the Z rotation. We take the X
+                        and Y locations and the Z (yaw) rotation data and cast it to a transform node. Taking the length
+                        of
+                        the streaming level names
+                        array we generate a random integer and compare that to the actual array to get a streaming
+                        level. </p>
                 </div>
                 <div class="column right">
 
@@ -165,8 +177,9 @@
                 </div>
                 <div class="column right">
                     <div class="text">Putting it all<span> together</span></div>
-                    <p>We append the indexes of the 2 for loops and add that to a unique instanced name(the main level).
-                        we get the length of the array and add it as a targe to the create instance node.
+                    <p>We append the indexes of the two for loops and add that to a unique instanced name(the main
+                        level).
+                        we get the length of the array and add it as a target to the create instance node.
                         returned values of the x and y locations as well as the random rotation of the tile are set to
                         the level transform.
                     </p>
@@ -183,7 +196,7 @@
                 <div class="column left">
                     <!-- todo -->
                     <div class="text">Drawing to<span> screen</span></div>
-                    <p>From our Create Intance function we set the level transform with the values we calculated. We
+                    <p>From our Create Instance function we set the level transform with the values we calculated. We
                         then set that to be loaded into the main level. The next thing we set is visibility within the
                         level. From there you have a procedurally generated level, where you can create detailed levels
                         that link together</p>
