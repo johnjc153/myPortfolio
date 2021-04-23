@@ -20,3 +20,7 @@ v.01
 
 v.02
     added shadows to cards to give contrast in pages
+
+v.03
+    -head-
+    added logo to browser tab
