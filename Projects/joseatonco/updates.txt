@@ -44,5 +44,12 @@ v.06
 v.07
     -text-
     bit of editing
+v.08
+    -pricing-
+    set to auto
+    -home-
+    set to scroll to nutrition plans
+    -head-
+    add logo picture for browser todo: add new picture or logo
     
 
