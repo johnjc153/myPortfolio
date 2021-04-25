@@ -198,7 +198,7 @@ img {
 
 .nav_logo {
     font-weight: 600;
-    font-size: var(--mb-5);
+    font-size: var(--mb-4);
 }
 
 #theme-button {
@@ -596,8 +596,14 @@ img {
     }
 }
 
-@media screen and (min-width: 500px) {
+/* @media (max-width: 960px) {
     .nav_logo {
-        font-size: 1rem;
+        font-size: var(--mb-4);
     }
 }
+
+@media (max-width: 500px) {
+    .nav_logo {
+        font-size: 2rem;
+    }
+} */

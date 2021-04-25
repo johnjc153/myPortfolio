@@ -23,3 +23,7 @@ v.03
     changed text
     -contact-
     made changes to layout and text 
+
+v.04
+    -navbar-
+    fixed stupid re-sizing bug from v.03
