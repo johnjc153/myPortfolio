@@ -68,15 +68,14 @@
             <h2 class="title">Demo</h2>
             <div class="project-content">
                 <div class="column left">
-                    <!-- todo -->
                     <video controls>
                         <source src="imgs/4X4.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="column right">
                     <div class="text"><span>This is a simple test</span></div>
-                    <p>A 5x5 section is drawn to the main level in real time, using levels that were already baked to
-                        acheive a procedural main level.</p>
+                    <p>A 5x5 section is drawn to the main level in real-time, using levels that were already baked to
+                        achieve a procedural main level.</p>
                 </div>
             </div>
         </div>
@@ -91,15 +90,19 @@
                 <div class="column left">
                     <!-- todo -->
                     <div class="text">How I plan to do<span> better</span></div>
-                    <p>Ideas: add check to enable the one time spawning of special tiles and items.
-                        add checks to ensure that two of the same room don't spawn next to each other.
-                        add a third layer or array to create tiles on the z-axis.
-                        add more unique levels to increase different outcomes
-                        add target points that can communicated to each other, such as "locked doors and keys"
-                        add checks to ensure some levels can spawn together, such as adding doors linking with other
-                        doors
-                        add procedural elements into the arrayed levels themselves to add an extra layer.
-                        performance upgrades: add a loading screen to allow cpu to draw the random tiles to screen
+                    <p>
+                    <ul>
+                        <li>Add check to enable the one time spawning of special tiles and items.</li>
+                        <li>Add checks to ensure that two of the same room don't spawn next to each other.</li>
+                        <li>Add a third layer or array to create tiles on the z-axis.</li>
+                        <li>Add more unique levels to increase different outcomes.</li>
+                        <li>Add target points that can communicated to each other, such as "locked doors and keys."</li>
+                        <li>Add checks to ensure some levels can spawn together, such as adding doors linking with other
+                            doors.</li>
+                        <li>Add procedural elements into the arrayed levels themselves to add an extra layer.</li>
+                        <li>Performance upgrade: add a loading screen to allow cpu to draw the random tiles to screen.
+                        </li>
+                    </ul>
                     </p>
                 </div>
                 <div class="column right">
@@ -123,12 +126,16 @@
                 </div>
                 <div class="column right">
                     <div class="text">The main<span> variables</span></div>
-                    <p>Level grid size refers to the grid size: any increase here would allow for larger randomized
-                        levels
-                        tiles size is the size of the actual tiles being generated
-                        Streaming level names is the specific array I am using to incorporate the levels
-                        A random integer with an max index of 3, so four postions for four sides, is then mult by 90 to
-                        get the z(yaw) rotation. This spins the drawn segment to face a differnt direction.
+                    <p>
+                    <ul>
+                        <li>Level grid size refers to the grid size: any increase here would allow for larger randomized
+                            levels.</li>
+                        <li>Tiles size is the size of the actual tiles being generated</li>
+                        <li>Streaming level names is the specific array I am using to incorporate the levels.</li>
+                        <li>A random integer with a max index of 3, so four positions for four sides, is then multiplied
+                            by 90 to
+                            get the z (yaw) rotation. This spins the drawn segment to face a different direction.</li>
+                    </ul>
                     </p>
                 </div>
             </div>
@@ -144,14 +151,16 @@
                 <div class="column left">
                     <!-- todo -->
                     <div class="text">It gets a bit<span> complicated</span></div>
-                    <p>On Event BeginPlay two for loops are called. One nested insde another, so each time the first one
-                        iterates(x) the second (y) does the same. Each loop has a the default starting index of 0, and
+                    <p>On Event BeginPlay two for loops are called. One nested inside another, so each time the first
+                        one
+                        iterates (x) the second (y) does the same. Each loop has a default starting index of 0, and
                         the last
-                        index is set to the level grid size varible. These then cast to a create instance node. The
-                        level grid size is then mult buy the tile size
+                        index is set to the level grid size variable. These then cast to a create instance node. The
+                        level grid size is then multiplied by the tile size
                         to get the actual size of the tile and then is divided by two. This value is then used to
-                        subtract the value of the tile size mult by the index of each loop to get to transform of both
-                        the x and y locatons of the arrayed objects. This value gives us the Z rotation. We take the X
+                        subtract the value of the tile size multiplied by the index of each loop to get to transform of
+                        both
+                        the x and y locations of the arrayed objects. This value gives us the Z rotation. We take the X
                         and Y locations and the Z (yaw) rotation data and cast it to a transform node. Taking the length
                         of
                         the streaming level names or segments
@@ -180,7 +189,7 @@
                     <p>We append the indexes of the two for loops and add that to a unique instanced name(the main
                         level).
                         we get the length of the array and add it as a target to the create instance node.
-                        returned values of the x and y locations as well as the random rotation of the tile are set to
+                        returned values of the x and y locations, as well as the random rotation of the tile, are set to
                         the level transform.
                     </p>
                 </div>
@@ -196,10 +205,10 @@
                 <div class="column left">
                     <!-- todo -->
                     <div class="text">Drawing to<span> screen</span></div>
-                    <p>From our Create Instance function we set the level transform with the values we calculated. We
-                        then set that to be loaded into the main level. The next thing we set is visibility within the
+                    <p>From our Create Instance function, we set the level transform with the values we calculated. We
+                        then set that to be loaded into the main level. The next thing we set its visibility within the
                         level. From there you have a procedurally generated level, where you can create detailed levels
-                        that link together</p>
+                        that link together.</p>
                 </div>
                 <div class="column right">
                     <img class="picture4" src="imgs/code4.png">
