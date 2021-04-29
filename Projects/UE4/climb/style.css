@@ -387,6 +387,11 @@ section .title::after {
         padding: 2rem;
     }
 
+    .content .project-content .left p {
+        padding: 2rem;
+    }
+
+
     .content .project-content .left video {
         height: auto;
         width: 100%;
