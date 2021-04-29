@@ -385,6 +385,10 @@ section .title::after {
     .content .project-content .right p {
         padding: 2rem;
     }
+    
+    ul{
+        padding-left: 2rem;
+    }
    
     .content .project-content .left p {
         padding: 2rem;

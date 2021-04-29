@@ -409,6 +409,11 @@ section .title::after {
         width: 350px;
     }
 
+    ul{
+        padding-left: 2rem;
+    }
+   
+
     .content .project-content .left video {
         height: auto;
         width: 100%;
