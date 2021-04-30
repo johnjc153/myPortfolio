@@ -76,8 +76,9 @@
                     </video>
                 </div>
                 <div class="column right">
-                    <!-- <div class="text">I'm John and <span> I love tech</span></div>
-                    <p> </p> -->
+                    <div class="text">This is my <span>Climb Toolkit</span></div>
+                    <p> Climbing system in UE4, allows for the player to climb "climbable" objects using a series
+                        of checks and overlapping events.</p>
                 </div>
             </div>
         </div>
@@ -97,7 +98,7 @@
                         <li>Retargeting the animations would help to reduce clipping.</li>
                         <li>Adding an IK model to help snap limbs to the correct places on a climbable object.</li>
                         <li>Overhaul of certain variables and elements that combine markers and tracer checks to help
-                            improve performance, instead of being called every tick.</li>
+                            improve performance by reducing the load of tracer checks.</li>
                     </ul>
                     </p>
                 </div>
@@ -121,8 +122,11 @@
                     <img class="picture1" src="imgs/checkTracers.PNG">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p> dkjfaoidjfiadjoifja[ojfdoiajfodjfoa[jf[oidajfi[ajf</p>
+                    <div class="text"><span> Check Tracers</span></div>
+                    <p>On Every Tick, we call our forward, height, and jump tracers, while constantly checking if we are
+                        hanging. In a sequence, we initialize our left and right tracers, our jump event, and our
+                        turning back and forward functions. Then we check if we can move or jump to the left as well as
+                        the right. We also check if we can turn a corner. </p>
                 </div>
             </div>
         </div>
@@ -136,8 +140,9 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>fadfadfa </p>
+                    <div class="text"> <span> Check Logic</span></div>
+                    <p>This is where we check if the player can move left or right using our arrow as a guide and a
+                        ledge trace channel.</p>
                 </div>
                 <div class="column right">
 
@@ -157,9 +162,11 @@
                     <img class="picture3" src="imgs/climb_ledge.PNG">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui error, ut provident deleniti vero
-                        sit animi? Suscipit vel repudiandae commodi? </p>
+                    <div class="text"> <span>Climb Ledge</span></div>
+                    <p>The climb ledge event sets the character’s movement mode to “walking.” If we are not climbing the
+                        ledge we but are in a climbing state we call the climb ledge function. The climb ledge function
+                        traces and then sets the movement mode to “flying.” After this is called we set Is Climbing
+                        Ledge to true and Is Hanging to false. </p>
                 </div>
             </div>
         </div>
@@ -173,8 +180,9 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>fadfadfa </p>
+                    <div class="text"><span> Exit Ledge</span></div>
+                    <p>On the event call, we set the movement mode to “walking.” We call “can grab” and set Is Handing
+                        to false.</p>
                 </div>
                 <div class="column right">
                     <img class="picture4" src="imgs/exitLedge.PNG">
@@ -192,9 +200,9 @@
                     <img class="picture3" src="imgs/jumpLogic.PNG">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui error, ut provident deleniti vero
-                        sit animi? Suscipit vel repudiandae commodi? </p>
+                    <div class="text"><span> Jump</span></div>
+                    <p>Here we check to see if we can jump right, jump left, jump up, as well as climb the ledge using
+                        the tracers.</p>
                 </div>
             </div>
         </div>
@@ -208,8 +216,8 @@
             <div class="project-content">
                 <div class="column left">
                     <!-- todo -->
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>fadfadfa </p>
+                    <div class="text"> <span> Jump Up tracer</span></div>
+                    <p>We Check if the player can jump up from a trace channel of our ledge trace</p>
                 </div>
                 <div class="column right">
                     <img class="picture4" src="imgs/jumpupLogic.PNG">
@@ -227,9 +235,9 @@
                     <img class="picture3" src="imgs/jumpSideLogic.PNG">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm John and <span> I love tech</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui error, ut provident deleniti vero
-                        sit animi? Suscipit vel repudiandae commodi? </p>
+                    <div class="text"> <span> Jumping to the side</span></div>
+                    <p>We check if the player can jump to the left and right. If there isn’t a return value from our
+                        trace channel we return Can Jump left or right to false. </p>
                 </div>
             </div>
         </div>
