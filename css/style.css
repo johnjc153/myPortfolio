@@ -296,12 +296,12 @@ section .title::after {
 .services .title::after,
 .projects .title::after {
     background: var(--dark-color);
-    content: "What do I provide";
+    content: "What I do";
 }
 
 .services .serv-content .card {
     width: calc(33% - 20px);
-    height: 30vh;
+    height: 18rem;
     background: #222;
     text-align: center;
     border-radius: 6px;
