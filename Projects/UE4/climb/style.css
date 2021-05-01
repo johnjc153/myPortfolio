@@ -403,6 +403,8 @@ section .title::after {
     }
 }
 
+
+
 @media (max-width: 1104px) {
     .content .project-content .left img {
         height: 350px;
