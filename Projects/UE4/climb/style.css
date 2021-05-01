@@ -208,7 +208,7 @@ section .title {
     height: 3px;
     background: var(--dark-color);
     transform: translate(-50%);
-}
+} */
 
 section .title::after {
     position: absolute;
@@ -219,7 +219,7 @@ section .title::after {
     padding: 3px;
     background: var(--white-color);
     transform: translate(-50%);
-} */
+}
 
 .code {
     padding-top: 5rem;
@@ -241,8 +241,8 @@ section .title::after {
 }
 
 /* content section styling */
-/* .content .title::after:nth-child(0) {
-    content: "About this Project";
+/* .content .title::after {
+    content: "";
 } */
 
 .content .project-content .left {
@@ -298,7 +298,7 @@ section .title::after {
 }
 
 .content .project-content .right {
-    width: 45%;
+    width: 40%;
     margin: 1.5rem;
 }
 
@@ -372,7 +372,7 @@ section .title::after {
     background: none;
 }
 
-#secB{
+#secB {
     color: var(--white-color);
     background: var(--dark-color);
 }
@@ -386,11 +386,14 @@ section .title::after {
     .content .project-content .right p {
         padding: 2rem;
     }
-
+    
+    ul{
+        padding-left: 2rem;
+    }
+   
     .content .project-content .left p {
         padding: 2rem;
     }
-
 
     .content .project-content .left video {
         height: auto;
@@ -403,49 +406,15 @@ section .title::after {
     }
 }
 
-
-
 @media (max-width: 1104px) {
     .content .project-content .left img {
         height: 350px;
         width: 350px;
     }
 
-    ul{
-        padding-left: 2rem;
-    }
-   
-
-    .content .project-content .left video {
-        height: auto;
-        width: 100%;
-    }
-
-    .content .project-content .right video {
-        height: auto;
-        width: 100%;
-    }
-
-    .content .project-content .left .picture1 {
-        height: auto;
-        width: 100%;
-    }
     
-    .content .project-content .right .picture2 {
-        height: auto;
-        width: 100%;
-    }
+
     
-    .content .project-content .left .picture3 {
-        height: auto;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    .content .project-content .right .picture4 {
-        height: auto;
-        width: 100%;
-    }
 
     /* .home .max-width {
         margin-left: 0px;
@@ -596,6 +565,7 @@ section .title::after {
         font-size: 20px;
         padding: 8px 20px;
     }
+
 }
 
 @media (max-width: 500px) {
@@ -611,18 +581,4 @@ section .title::after {
         font-size: 27px;
     }
 
-    .content .project-content .right p {
-        padding: 1.5rem;
-    }
-
-    .content .project-content .left p {
-        padding: 1.5rem;
-    }
-
 }
-
-/* @media (max-width: 360px) {
-    .max-width {
-        padding: 0 23px;
-    }
-} */
