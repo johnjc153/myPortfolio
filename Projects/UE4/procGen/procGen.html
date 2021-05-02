@@ -93,10 +93,11 @@
                     <p>
                     <ul>
                         <li>Add check to enable the one time spawning of special tiles and items.</li>
-                        <li>Add checks to ensure that two of the same room don't spawn next to each other.</li>
+                        <li>Add checks to ensure that two of the same rooms don't spawn next to each other.</li>
                         <li>Add a third layer or array to create tiles on the z-axis.</li>
                         <li>Add more unique levels to increase different outcomes.</li>
-                        <li>Add target points that can communicated to each other, such as "locked doors and keys."</li>
+                        <li>Add target points that can communicate with each other, such as "locked doors and keys."
+                        </li>
                         <li>Add checks to ensure some levels can spawn together, such as adding doors linking with other
                             doors.</li>
                         <li>Add procedural elements into the arrayed levels themselves to add an extra layer.</li>
@@ -156,13 +157,14 @@
                         one
                         iterates (x) the second (y) does the same. Each loop has a default starting index of 0, and
                         the last
-                        index is set to the level grid size variable. These then cast to a create instance node. The
+                        index is set to the level grid size variable. These then cast to the create instance node. The
                         level grid size is then multiplied by the tile size
                         to get the actual size of the tile and then is divided by two. This value is then used to
                         subtract the value of the tile size multiplied by the index of each loop to get to transform of
                         both
                         the x and y locations of the arrayed objects. We take the X
-                        and Y locations and the Z (yaw) rotation data and cast it to a transform node. Taking the length
+                        and Y locations and the Z (yaw) rotation data and cast it to the transform node. Taking the
+                        length
                         of
                         the streaming level names or segments
                         array we generate a random integer and compare that to the actual array to get a streaming
@@ -187,7 +189,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Putting it all<span> together</span></div>
-                    <p>We append the indexes of the two for loops and add that to a unique instanced name(the main
+                    <p>We append the indexes of the two for loops and add that to a unique instance name(the main
                         level).
                         We get the length of the array and add it as a target to the create instance node. Grabbing the
                         returned values of the x and y locations, as well as the random rotation of the tile z, we are
