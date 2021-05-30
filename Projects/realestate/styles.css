@@ -36,7 +36,7 @@
 }
 
 .bx:hover {
-    color: blue;
+    color: #5bc0de;
     transition: 0.3s;
 }
 
@@ -51,4 +51,14 @@
 
 .card-img-top {
     border-radius: 1rem;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+#navBut:hover {
+    color: white;
+    outline: 1px solid white;
 }
