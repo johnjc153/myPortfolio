@@ -54,7 +54,7 @@ body {
 }
 
 .card {
-    border-radius: 1rem;
+    border-radius: 2rem 0rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -73,11 +73,15 @@ body {
 }
 
 #perPhoto {
-    border-radius: 1rem 0rem 0rem 1rem;
+    border-radius: 1rem 0rem 0rem 0rem;
     width: 20vw;
     height: 20vh;
 }
 
 .secTitle {
     font-weight: 700;
+}
+
+.carousel-inner {
+    border-radius: 2rem 0rem;
 }
