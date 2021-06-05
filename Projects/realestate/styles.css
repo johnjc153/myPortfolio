@@ -72,3 +72,10 @@ body {
     outline: 1px solid white;
 }
 
+#perPhoto {
+    border-radius: 1rem;
+}
+
+.secTitle {
+    font-weight: 700;
+}
