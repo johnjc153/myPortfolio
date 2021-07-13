@@ -6,7 +6,7 @@
 /* muh vars */
 :root {
     --btnColor: rgb(116, 116, 116);
-    --btnColor2: rgba(255, 255, 255, 0.719);
+    --btnColor2: rgb(255, 255, 255);
     --darkColor: black;
     --white: #fff;
     --gradientC1: rgb(3, 48, 144);
@@ -113,15 +113,21 @@ section {
 }
 
 .toggle:hover {
-    background-color: var(--btnColor2);
+    background-color: var(--white);
+    transform: scale(1.1);
 }
 
 .toggle.active {
-    background: var(--btnColor) url(../images/exit-regular-24.png);
+    background: var(--btnColor2) url(../images/exit-regular-24.png);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 0 0 0 1rem;
+}
+
+.toggle.active:hover {
+    background-color: var(--btnColor2);
+    transform: scale(1.1);
 }
 
 /* nav */
