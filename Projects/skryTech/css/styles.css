@@ -5,13 +5,13 @@
 
 /* muh vars */
 :root {
-    --btnColor: rgb(180, 0, 180);
-    --btnColor2: palevioletred;
+    --btnColor: rgb(116, 116, 116);
+    --btnColor2: rgba(255, 255, 255, 0.719);
     --darkColor: black;
     --white: #fff;
-    --gradientC1: rgb(20, 0, 46);
-    --gradientC2: rgb(39, 39, 39);
-    --gradientC3: black;
+    --gradientC1: rgb(3, 48, 144);
+    --gradientC2: rgb(2, 16, 36);
+    --gradientC3: rgb(0, 7, 39);
 }
 
 /* base styles */
@@ -41,7 +41,7 @@ p {
     width: 100%;
     height: 100vh;
     color: var(--white);
-    background: linear-gradient(-45deg, var(--gradientC1), var(--gradientC2), var(--gradientC3));
+    background: linear-gradient(-45deg, var(--gradientC3), var(--gradientC2), var(--gradientC1));
     background-size: 400% 400%;
     position: relative;
     animation: change 30s ease-in-out infinite;
@@ -75,13 +75,16 @@ section {
     padding: 15px 50px;
     margin: 20px 0;
     border-radius: 2rem;
-    border: 0;
+    outline: 2px solid var(--btnColor2);
+    border: 3px solid var(--btnColor);
 }
 
 .btn:hover {
     transform: scale(0.98);
     background-color: var(--btnColor2);
-    transition: ease-in 0.2s;
+    transition: ease-in 0.3s;
+    color: black;
+    text-decoration: underline;
 }
 
 .logo {
@@ -187,7 +190,7 @@ section {
 
 .navigation .social-bar a {
     display: inline-block;
-    transform: scale(0.5);
+    transform: scale(0.6);
 }
 
 /* home  */
