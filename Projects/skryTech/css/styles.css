@@ -75,7 +75,7 @@ section {
     padding: 15px 50px;
     margin: 20px 0;
     border-radius: 2rem;
-    outline: 2px solid var(--btnColor2);
+    /* outline: 2px solid var(--btnColor2); */
     border: 3px solid var(--btnColor);
 }
 
@@ -85,6 +85,7 @@ section {
     transition: ease-in 0.3s;
     color: black;
     text-decoration: underline;
+    /* outline: 2px solid var(--btnColor2); */
 }
 
 .logo {
@@ -215,3 +216,24 @@ section {
 }
 
 /* home */
+
+/* media queries */
+@media (max-width: 1068px) {
+    .home-img {
+        display: none;
+    }
+
+    .logo {
+        top: 10px;
+        left: 40px;
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 100px 40px;
+    }
+
+    .navigation ul li a {
+        font-size: 2rem;
+    }
+}
