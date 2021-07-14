@@ -223,6 +223,23 @@ section.home {
 
 /* home */
 
+/* services */
+.services {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.services .service .icon img {
+    max-width: 150px;
+}
+
+.services .service .icon svg {
+    fill: var(--btnColor);
+}
+
 /* media queries */
 @media (max-width: 1068px) {
     .home-img {
