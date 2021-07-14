@@ -102,6 +102,10 @@ section.home {
     z-index: 20;
 }
 
+.logo img {
+    width: 15rem;
+}
+
 /* toggle */
 .toggle {
     cursor: pointer;
