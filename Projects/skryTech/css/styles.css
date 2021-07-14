@@ -61,9 +61,14 @@ p {
 
 section {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     align-items: center;
     padding: 100px;
+}
+
+section.home {
+    flex-direction: row;
 }
 
 .btn {
@@ -213,6 +218,7 @@ section {
     right: 0;
     height: 110%;
     width: 50vw;
+    filter: opacity(0.9);
 }
 
 /* home */
