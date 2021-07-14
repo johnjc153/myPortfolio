@@ -237,7 +237,7 @@ section.home {
 }
 
 .services .service .icon svg {
-    fill: var(--btnColor);
+    fill: var(--btnColor2);
 }
 
 /* media queries */
