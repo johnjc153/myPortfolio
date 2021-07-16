@@ -357,11 +357,24 @@ section.home {
 .contact-form .row textarea {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 1rem;
+    border-radius: .5rem;
     /* color: #111; */
     width: 100%;
     padding: 10px;
     margin: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contact-form .row textarea {
+    height: 150px;
+}
+
+.contact-form .row input [type='submit'] {
+    margin: 0;
+    
 }
 
 /* media queries */
