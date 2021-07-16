@@ -375,7 +375,9 @@ section.home {
 .contact-form .row input [type='submit'] {
     margin: 0;
     
-}
+} 
+
+/* trying to save */
 
 /* media queries */
 @media (max-width: 1068px) {
