@@ -245,6 +245,7 @@ img {
     height: 220px;
     background-color: var(--dark-color);
     border-radius: 50%;
+    /* try to save */
 }
 
 .home_img {
