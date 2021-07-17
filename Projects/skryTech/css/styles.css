@@ -357,7 +357,7 @@ section.home {
 .contact-form .row textarea {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     /* color: #111; */
     width: 100%;
     padding: 10px;
@@ -372,12 +372,9 @@ section.home {
     height: 150px;
 }
 
-.contact-form .row input [type='submit'] {
+.contact-form .row input [type="submit"] {
     margin: 0;
-    
-} 
-
-/* trying to save */
+}
 
 /* media queries */
 @media (max-width: 1068px) {
