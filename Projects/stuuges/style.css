@@ -252,7 +252,8 @@ img {
     top: 1.5rem;
     max-width: initial;
     width: 275px;
-    transform: var(--rotate-img);
+    filter: drop-shadow(0 12px 8px rgba(0, 0, 0, 0.2));
+
 }
 
 .home_new {
@@ -347,7 +348,6 @@ img {
     width: 220px;
     margin-top: var(--mb-3);
     margin-bottom: var(--mb-6);
-    transform: var(--rotate-img);
     filter: drop-shadow(0 12px 8px rgba(0, 0, 0, 0.2));
 }
 
