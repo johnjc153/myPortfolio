@@ -230,6 +230,17 @@ section.home {
 
 /* home */
 
+/* thankyouemail page */
+.ty-content h1,
+.ty-content p{
+    text-align: center;
+}
+
+
+.ty-content p span {
+    color: var(--btnColor);
+}
+
 /* services */
 .services {
     margin-top: 40px;
