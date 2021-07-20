@@ -231,6 +231,11 @@ section.home {
 /* home */
 
 /* thankyouemail page */
+#ty-id{
+    align-items: center;
+    justify-content: center;
+}
+
 .ty-content h1,
 .ty-content p{
     text-align: center;
