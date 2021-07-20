@@ -350,23 +350,23 @@ section.home {
     width: 100%;
 }
 
-.contact-form .row {
+.contact-form .form-group .row {
     width: 100%;
     display: flex;
 }
 
-.contact-form .input50 {
+.contact-form .form-group .input50 {
     width: 50%;
     margin: 0 10px;
 }
 
-.contact-form .input100 {
+.contact-form .form-group .input100 {
     width: 100%;
     margin: 0 10px;
 }
 
-.contact-form .row input,
-.contact-form .row textarea {
+.contact-form .form-group .row input,
+.contact-form .form-group .row textarea {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
@@ -380,11 +380,11 @@ section.home {
     resize: none;
 }
 
-.contact-form .row textarea {
+.contact-form .form-group .row textarea {
     height: 150px;
 }
 
-.contact-form .row input [type="submit"] {
+.contact-form .form-group .row input [type="submit"] {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;

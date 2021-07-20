@@ -71,41 +71,48 @@
             </div>
             <div class="contact">
                 <div class="contact-form">
-                    <form action="">
-
-                        <div class="row">
-                            <div class="input50">
-                                <input type="text" placeholder="First Name">
+                    <form target="_blank" action="https://formsubmit.co/greyson@skrytech.com" method="POST">
+                        <div class="form-group">
+                            <input type="hidden" name="_cc" value="john@skrytech.com">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next"
+                                value="https://johnjcutler/Portfolio/Projects/skryTech/thankyou.html">
+                            <div class="row">
+                                <div class="input50">
+                                    <input type="text" placeholder="First Name" name="first name" class="form-control">
+                                </div>
+                                <div class="input50">
+                                    <input type="text" placeholder="Last Name" name="last name" class="form-control">
+                                </div>
                             </div>
-                            <div class="input50">
-                                <input type="text" placeholder="Last Name">
+
+                            <div class="row">
+                                <div class="input100">
+                                    <input type="email" placeholder="Email" name="Email" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input100">
+                                    <input type="text" placeholder="Subject" name="Subject" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input100">
+                                    <textarea
+                                        placeholder="Please leave a brief description of your project and what you need here"
+                                        name="description" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input100">
+                                    <input class="btn" type="submit" value="Send">
+                                </div>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="input100">
-                                <input type="text" placeholder="Email">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input100">
-                                <input type="text" placeholder="Subject">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input100">
-                                <textarea
-                                    placeholder="Please leave a brief description of your project and what you need here"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input100">
-                                <input class="btn" type="submit" value="Send">
-                            </div>
-                        </div>
 
                     </form>
                 </div>
