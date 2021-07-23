@@ -131,8 +131,8 @@ section.home {
     position: fixed;
     top: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: var(--btnColor2) url(../images/menu-regular-24.png);
     background-size: 30px;
     background-position: center;
@@ -246,6 +246,7 @@ section.home {
     width: 50vw;
     filter: opacity(0.9);
 }
+
 
 /* home */
 
