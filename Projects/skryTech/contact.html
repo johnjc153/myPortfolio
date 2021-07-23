@@ -79,22 +79,38 @@
                                 value="https://johnjcutler.com/Projects/skryTech/thankyou.html">
                             <div class="row">
                                 <div class="input50">
-                                    <input type="text" placeholder="First Name" name="FirstName" class="form-control">
+                                    <input type="text" placeholder="First Name" name="FirstName" class="form-control"
+                                        required>
                                 </div>
                                 <div class="input50">
-                                    <input type="text" placeholder="Last Name" name="LastName" class="form-control">
+                                    <input type="text" placeholder="Last Name" name="LastName" class="form-control"
+                                        required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input100">
-                                    <input type="email" placeholder="Email" name="Email" class="form-control">
+                                    <input type="email" placeholder="Email" name="Email" class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input100">
-                                    <input type="text" placeholder="Subject" name="Subject" class="form-control">
+                                    <label for="service">What can we do for you</label>
+                                    <select name="service" id="service" form="service" class="form-control" required>
+                                        <option value="select">Select</option>
+                                        <option value="webdesign">Webdesign</option>
+                                        <option value="consultation">consultation</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="input100">
+                                    <input type="text" placeholder="Subject" name="Subject" class="form-control"
+                                        required>
                                 </div>
                             </div>
 
@@ -102,13 +118,13 @@
                                 <div class="input100">
                                     <textarea
                                         placeholder="Please leave a brief description of your project and what you need here"
-                                        name="Description" class="form-control"></textarea>
+                                        name="Description" class="form-control" required></textarea>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input100">
-                                    <input class="btn" type="submit" value="Send">
+                                    <input class="btn" type="submit" value="Send" style="font-weight: bold;">
                                 </div>
                             </div>
                         </div>
@@ -139,7 +155,7 @@
                         <i class='bx bx-time'></i>
                         <div class="details">
                             <h4>Hours</h4>
-                            <p>9-5 Weekdays</p>
+                            <p>Mon-Fri 9am-9pm</p>
                         </div>
                     </div>
 

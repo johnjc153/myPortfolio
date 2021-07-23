@@ -364,6 +364,10 @@ section.home {
     align-items: flex-start;
 }
 
+#contact .title {
+    text-align: center;
+}
+
 .contact-form {
     position: relative;
     background: var(--gradientC4);
@@ -406,6 +410,12 @@ section.home {
     resize: none;
 }
 
+.contact-form .form-group .input100  label,
+.contact-form .form-group .input100  select {
+    padding: 10px;
+    margin-left: 5px;
+}
+
 .contact-form .form-group .row textarea {
     height: 150px;
 }
@@ -429,6 +439,7 @@ section.home {
     display: flex;
     align-items: flex-start;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .contact-info .info-box .bx{
@@ -445,6 +456,7 @@ section.home {
 .contact-info .info-box .details a{
     color: var(--btnColor2);
 }
+
 
 /* media queries */
 @media (max-width: 1068px) {
