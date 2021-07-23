@@ -13,6 +13,12 @@
     --gradientC2: rgb(2, 16, 36);
     --gradientC3: rgb(0, 7, 39);
     --gradientC4: rgba(2, 16, 36, 0.2);
+
+    --testGradC1: rgb(206, 18, 18);
+    --testGradC2: rgb(129, 0, 0);
+    --testGradC3: rgb(27, 23, 23);
+    
+    
 }
 
 /* base styles */
@@ -51,6 +57,18 @@ p {
 }
 
 @keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@keyframes change2 {
     0% {
         background-position: 0 50%;
     }
@@ -148,7 +166,9 @@ section.home {
     left: 100%;
     width: 100%;
     height: 100%;
-    background-color: var(--gradientC2);
+    background: linear-gradient(-45deg, var(--testGradC1), var(--testGradC2), var(--testGradC3));
+    background-size: 400% 400%;
+    animation: change2 90s ease-in-out infinite;
     z-index: 15;
     display: flex;
     justify-content: center;
@@ -173,7 +193,7 @@ section.home {
     font-size: 3rem;
     color: var(--white);
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     transition: .3s;
 }
 
@@ -197,7 +217,7 @@ section.home {
 .navigation .social-bar {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 60px;
     height: 100%;
     display: flex;
