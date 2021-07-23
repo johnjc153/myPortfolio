@@ -100,13 +100,11 @@ section.home {
     position: absolute;
     top: 30px;
     left: 100px;
-    font-size: 2rem;
-    font-weight: 700;
     z-index: 20;
 }
 
 .logo img {
-    width: 10rem;
+    width: 15rem;
 }
 
 /* toggle */
@@ -117,7 +115,7 @@ section.home {
     right: 0;
     width: 60px;
     height: 60px;
-    background: var(--btnColor) url(../images/menu-regular-24.png);
+    background: var(--btnColor2) url(../images/menu-regular-24.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +124,7 @@ section.home {
 }
 
 .toggle:hover {
-    background-color: var(--white);
+    background-color: var(--btnColor);
     transform: scale(1.1);
 }
 
@@ -139,7 +137,7 @@ section.home {
 }
 
 .toggle.active:hover {
-    background-color: var(--btnColor2);
+    background-color: var(--btnColor);
     transform: scale(1.1);
 }
 
@@ -176,6 +174,7 @@ section.home {
     color: var(--white);
     text-decoration: none;
     font-weight: 300;
+    transition: .3s;
 }
 
 #email {
@@ -457,7 +456,7 @@ section.home {
     }
 
     .logo img {
-        width: 10rem;
+        width: 12rem;
     }
 
     .contact{
@@ -498,7 +497,7 @@ section.home {
     }
 
     .logo img {
-        width: 10rem;
+        width: 12rem;
     }
 
     .services {
