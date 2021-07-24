@@ -440,6 +440,7 @@ section.home {
 
 .contact-form .form-group .row .checkboxes {
     padding: 10px;
+    display: inline-flex;
 }
 
 .contact-info {
@@ -568,6 +569,10 @@ section.home {
  .contact-form .row {
         flex-direction: column;
     }
+
+    .contact-form .form-group .row .checkboxes {
+    display: inline-flex;
+}
 }
 
 @media (max-width: 414px) {
