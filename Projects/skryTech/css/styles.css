@@ -429,6 +429,15 @@ section.home {
     cursor: pointer;
 }
 
+.contact-form .form-group .row h3 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-form .form-group .row .checkboxes {
+    padding: 10px;
+}
+
 .contact-info {
     width: 350px;
     background: var(--gradientC4);
