@@ -377,6 +377,10 @@ section.home {
     border-radius: 1rem;
 }
 
+.contact-form .title {
+    padding-bottom: 1.3rem;
+}
+
 .contact-form form {
     width: 100%;
 }
@@ -444,6 +448,9 @@ section.home {
     width: 350px;
     background: var(--gradientC4);
     padding: 60px 40px 20px;
+    border-radius: 1rem;
+    display: inline-block;
+    align-items: center;
 }
 
 .contact-info .info-box {
