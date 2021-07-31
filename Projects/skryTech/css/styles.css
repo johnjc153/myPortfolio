@@ -195,6 +195,7 @@ section.home {
     text-decoration: none;
     font-weight: 400;
     transition: 0.3s;
+    line-height: 3rem;
 }
 
 #email {
