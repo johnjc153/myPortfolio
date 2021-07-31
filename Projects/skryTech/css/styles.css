@@ -239,6 +239,15 @@ section.home {
     max-width: 600px;
 }
 
+.home-content h1 {
+    padding-bottom: 3rem;
+}
+
+.home-content p {
+    line-height: 2.5rem;
+    padding-bottom: 3rem;
+}
+
 .home-img {
     position: absolute;
     bottom: 0;
