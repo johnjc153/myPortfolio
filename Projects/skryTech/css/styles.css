@@ -442,6 +442,11 @@ section.home {
     font-weight: 300;
     border: 0;
     cursor: pointer;
+    color: var(--btnColor);
+    cursor: pointer;
+
+    /* changed the class to btn2 make new btn 2  */
+
 }
 
 .contact-form .form-group .row h3 {
@@ -455,12 +460,13 @@ section.home {
 }
 
 .contact-info {
-    width: 350px;
+    width: 350px; 
     background: var(--gradientC4);
     padding: 60px 40px 20px;
     border-radius: 1rem;
     display: inline-block;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-info .info-box {
@@ -468,6 +474,8 @@ section.home {
     align-items: flex-start;
     margin-bottom: 40px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-info .info-box .bx {
