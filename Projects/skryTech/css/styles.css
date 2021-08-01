@@ -484,27 +484,25 @@ section.home {
     padding: 60px 40px 20px;
     border-radius: 1rem;
     display: inline-block;
-    align-items: center;
-    justify-content: center;
 }
 
 .contact-info .info-box {
     display: flex;
     align-items: flex-start;
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
 }
 
-.contact-info .info-box .bx {
-    width: 20px;
-    margin-right: 40px;
+.contact-info .info-box .svg-div{
+    margin-left: 50px;
+
 }
 
-.contact-info .info-box .details i {
-    width: 50px;
-    display: flex;
+.contact-info .info-box svg {
+    width: 3rem;
+    height: 3rem;
     margin-right: 40px;
 }
 
