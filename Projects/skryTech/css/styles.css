@@ -466,9 +466,6 @@ section.home {
     cursor: pointer;
     color: var(--btnColor);
     cursor: pointer;
-
-    /* changed the class to btn2 make new btn 2  */
-
 }
 
 .contact-form .form-group .row h3 {
@@ -502,6 +499,12 @@ section.home {
 
 .contact-info .info-box .bx {
     width: 20px;
+    margin-right: 40px;
+}
+
+.contact-info .info-box .details i {
+    width: 50px;
+    display: flex;
     margin-right: 40px;
 }
 
