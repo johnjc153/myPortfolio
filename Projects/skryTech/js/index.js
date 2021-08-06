@@ -7,8 +7,8 @@ toggle.addEventListener('click', () => {
     navigation.classList.toggle('active')
 })
 
-for( i = 0; i < accordion.length; i++){
-    accordion[i].addEventListener('click', function(){
+for (i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener('click', function () {
         this.classList.toggle('active')
     })
 }
