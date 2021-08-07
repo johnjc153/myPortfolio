@@ -480,10 +480,10 @@ section.home {
 .contact {
     position: relative;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 15px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact .title {
@@ -603,6 +603,8 @@ section.home {
 .contact-info .info-box .details a {
     color: var(--btnColor2);
 }
+
+ 
 
 /* media queries */
 @media (max-width: 1068px) {
