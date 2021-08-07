@@ -7,7 +7,6 @@ toggle.addEventListener('click', () => {
     navigation.classList.toggle('active')
 })
 
-<<<<<<< HEAD
 let acc = document.getElementsByClassName("contentBx");
         let i;
 
@@ -49,10 +48,3 @@ let acc = document.getElementsByClassName("contentBx");
                 this.classList.toggle('active')
             })
         }
-=======
-for (i = 0; i < accordion.length; i++) {
-    accordion[i].addEventListener('click', function () {
-        this.classList.toggle('active')
-    })
-}
->>>>>>> d62270f558b964e0144a64c0c4639e873093490b
