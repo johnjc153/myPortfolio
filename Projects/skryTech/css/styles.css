@@ -668,7 +668,21 @@ section.home {
     }
 
     .accordion {
-    max-width: calc(100% - 4rem);
+        max-width: calc(100% - 1rem);
+    }
+
+    .accordion .contentBx {
+        padding: .5rem;
+    }
+    
+
+    .servicesBtn{
+        display: none;
+    }
+
+    .openall, .closeall{
+        display: inline;
+        padding: 8px 25px;
     }
 }
 
@@ -709,6 +723,7 @@ section.home {
     .contact-form .form-group .row .checkboxes {
         display: inline-flex;
     }
+
 }
 
 @media (max-width: 414px) {
@@ -726,6 +741,30 @@ section.home {
     #port {
         height: 500vh;
     }
+
+    .accordion {
+        max-width: calc(100% - .1rem);
+    }
+
+    .toggle, .toggle.active {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .accordion .contentBx .label {
+        padding: .5rem;
+    }
+
+    .accordion .contentBx .content::before {
+        width: .3rem;
+        height: 60%;
+        
+    }
+
+    .accordion .contentBx .content p {
+        font-size: .8rem;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -747,6 +786,7 @@ section.home {
     #port {
         height: 450vh;
     }
+
 }
 
 @media (max-width: 320px) {
