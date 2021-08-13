@@ -145,6 +145,7 @@ section.home {
     top: 30px;
     left: 100px;
     z-index: 20;
+    padding-bottom: 5rem;
 }
 
 .logo img {
@@ -279,7 +280,7 @@ section.home {
     bottom: 0;
     right: 0;
     height: 110%;
-    width: 50vw;
+    width: 60vw;
     filter: opacity(0.9);
 }
 
@@ -730,7 +731,11 @@ section.home {
 
 @media (max-width: 414px) {
     #home-body {
-        height: 100vh;
+        height: 120vh;
+    }
+
+    .home {
+        height: 120vh;
     }
     #body {
         height: 400vh;
@@ -788,7 +793,6 @@ section.home {
     #port {
         height: 450vh;
     }
-
 }
 
 @media (max-width: 320px) {
