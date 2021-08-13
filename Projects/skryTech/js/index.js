@@ -1,7 +1,5 @@
 const toggle = document.querySelector('.toggle');
 const navigation = document.querySelector('.navigation');
-const accordion = document.getElementsByClassName('contentBx');
-
 
 toggle.addEventListener('click', () => {
     toggle.classList.toggle('active')
@@ -41,10 +39,10 @@ let acc = document.getElementsByClassName("contentBx");
             }
         }
 
- for (i = 0; i < acc.length; i++) {
+        for (i = 0; i < acc.length; i++) {
             acc[i].addEventListener('click', function () {
                 this.classList.toggle('active')
-            })
+                })
         } 
 
         document.getElementById('openAll').addEventListener('click', openAll);
