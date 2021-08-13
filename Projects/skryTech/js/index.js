@@ -1,5 +1,6 @@
 const toggle = document.querySelector('.toggle');
 const navigation = document.querySelector('.navigation');
+const accordion = document.getElementsByClassName('contentBx');
 
 
 toggle.addEventListener('click', () => {
@@ -8,7 +9,7 @@ toggle.addEventListener('click', () => {
 })
 
 let acc = document.getElementsByClassName("contentBx");
-        var i;
+        let i;
 
         for (i = 0; i < acc.length; i++) {
             acc[i].onclick = function () {
@@ -30,7 +31,6 @@ let acc = document.getElementsByClassName("contentBx");
         function openAll() {
             for (i = 0; i < acc.length; i++) {
                 acc[i].classList.add("active");
-                acc[i].nextElementSibling.style.maxHeight = acc[i].nextElementSibling.scrollHeight + "px";
             }
         }
 
@@ -41,26 +41,13 @@ let acc = document.getElementsByClassName("contentBx");
             }
         }
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener('click', function() {
+ for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener('click', function () {
                 this.classList.toggle('active')
             })
-        }
-
-    // function buttonPress (){
-    //     for (i = 0; i < acc.length; i++) {
-    //         acc[i].addEventListener('click', function () {
-    //             if (this.classList.contains('active')){
-    //                 this.classList.remove('active')
-    //             } else {
-    //                 this.classList.toggle('active')
-    //             }
-    //         })
-    //     }
-    // }
+        } 
 
         document.getElementById('openAll').addEventListener('click', openAll);
         document.getElementById('closeAll').addEventListener('click', closeAll);
-        // document.getElementById('OC').addEventListener('click', buttonPress);
 
-        
+       
