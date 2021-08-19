@@ -42,26 +42,19 @@ function closeAll() {
 
 
 // this works but doesnt close after another section is clicked
-// for (i = 0; i < acc.length; i++){
+// for (i = 0; i < acc.length; i++) {
 //     acc[i].onclick = function () {
 //         this.classList.toggle("active")
 //     }
 // }
 
 //works but does not close when section is clicked again
-// for (i = 0; i < acc.length; i++) {
-//     acc[i].addEventListener('click', function () {
-//         this.classList.toggle('active')
-//         })
-// } 
-
-function dropDown() {
-    for (i = 0; i < acc.length; i++) {
-        this.classList.toggle("active")
-    }
-
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener('click', function () {
+        this.classList.toggle('active')
+    })
 }
+
 
 document.getElementById('openAll').addEventListener('click', openAll);
 document.getElementById('closeAll').addEventListener('click', closeAll);
-document.getElementById('dropDown').addEventListener('click', dropDown);
