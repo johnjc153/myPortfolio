@@ -1,0 +1,29 @@
+v.01
+    updates/fixes:
+        -Nav-
+            changed spacing
+            added border
+            changed logo size and font to mb-3 and 600 from default
+        -Home-
+            added border to img
+        -Services-
+            moved alignment of the services title down from svgs
+        -Footer-
+            added hover effect to social keys
+        
+v.02 
+    deleted photos
+
+v.03
+    -navbar-
+    changed nav logo to a larger font size
+    -scrollanim-
+    changed distance from 30px to 20px and increased interval time for faster transition
+    -services-
+    changed text
+    -contact-
+    made changes to layout and text 
+
+v.04
+    -navbar-
+    fixed stupid re-sizing bug from v.03
