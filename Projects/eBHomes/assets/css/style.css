@@ -756,6 +756,10 @@ h6 {
   padding: 15px 0;
 }
 
+.clients #logo {
+  width: 350px;
+}
+
 .clients img:hover {
   filter: none;
   transform: scale(1.2);
