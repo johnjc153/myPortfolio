@@ -612,9 +612,11 @@ h6 {
   border: 2px solid var(--color1);
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/* contact */
+.contact {
+  margin: 50px 50px 0 50px;
+}
+
 .contact .info-box {
   color: var(--color3);
   text-align: center;
