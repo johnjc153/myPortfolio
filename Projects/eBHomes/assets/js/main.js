@@ -49,7 +49,6 @@
       } else {
         navbarlink.classList.remove('active')
       }
-      navbarlink.classList.remove('active')
     })
   }
   window.addEventListener('load', navbarlinksActive)
