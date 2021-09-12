@@ -506,6 +506,22 @@ h6 {
   max-width: 100%;
 }
 
+#about #try1 {
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/eBH5.JPG") fixed center center;
+  background-size: cover;
+}
+
+#about #try2 {
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/eBH3.jpeg") fixed center right;
+  background-size: 80%;
+}
+
+#about #try3 {
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/eBH6.jpg") fixed center left;
+  background-size: 960px 1100px;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   #about .about-img-1 {
     height: auto;
