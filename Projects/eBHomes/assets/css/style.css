@@ -402,7 +402,7 @@ h6 {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--color1);
   margin-bottom: 35px;
   font-size: 24px;
 }
@@ -454,30 +454,107 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+.section-header .section-title {
+  font-size: 32px;
+  color: var(--black);
+  text-align: center;
+  font-weight: 400;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: var(--color3);
+  font-style: italic;
+}
+
+.section-header .section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--color1);
+  background: linear-gradient(0deg, var(--color1) 0%, var(--color2) 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Section with background
+--------------------------------*/
+.section-bg {
+  background: var(--light);
+}
+
+/* About Us Section
+--------------------------------*/
+#about {
   padding: 60px 0;
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: var(--light);
+#about .row {
+  align-items: center;
+  justify-content: center;
 }
 
-.section-title {
-  padding-bottom: 40px;
-  text-align: center;
+#about .about-img-1 {
+  height: 510px;
+  overflow: hidden;
 }
 
-.section-title h2 {
-  font-size: 36px;
-  font-weight: 300;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  color: #21413c;
+#about .about-img-1 img {
+  margin-left: -15px;
+  max-width: 100%;
 }
 
-.section-title p {
+@media (max-width: 768px) {
+  #about .about-img-1 {
+    height: auto;
+  }
+  #about .about-img-1 img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .content-1 p {
+  line-height: 35px;
+  font-size: 1.5rem;
+  padding-right: 100px;
+}
+
+#about .content-1 p:last-child {
   margin-bottom: 0;
+}
+
+/* about 2 */
+#about .content-2 p {
+  line-height: 35px;
+  font-size: 1.5rem;
+  margin-left: 100px;
+}
+
+#about .content-2 p:last-child {
+  margin-bottom: 0;
+}
+
+#about .about-img-2 {
+  height: 510px;
+  overflow: hidden;
+}
+
+#about .about-img-2 img {
+  margin-left: 145px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img-2 {
+    height: auto;
+  }
+  #about .about-img-2 img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
 }
 
 /*--------------------------------------------------------------
