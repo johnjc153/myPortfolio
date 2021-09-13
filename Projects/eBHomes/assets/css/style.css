@@ -497,7 +497,6 @@ h6 {
 
 #about .about-img-1 {
   height: 510px;
-  width: 960px;
   overflow: hidden;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.514);
 }
@@ -590,7 +589,6 @@ h6 {
 
 #about .about-img-2 {
   height: 510px;
-  width: 960px;
   overflow: hidden;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.514);
 }
