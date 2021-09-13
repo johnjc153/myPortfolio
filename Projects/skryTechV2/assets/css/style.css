@@ -1,3 +1,17 @@
+/* root */
+:root {
+
+  --color1: #67b0d1;
+  --color2: #8ec4dd;
+  --color3: #444444;
+
+
+
+
+}
+
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -263,7 +277,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(43, 111, 142, 0.9);
+  background: rgba(176, 213, 230, 0.9);
   transition: 0.3s;
 }
 
@@ -415,6 +429,43 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+
+#hero ul {
+    position: relative;
+}
+
+#hero ul li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+#hero ul li a {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.3s;
+    line-height: 4rem;
+}
+
+
+#hero .hero-container .social-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#hero .social-bar a {
+    display: inline-block;
+    transform: scale(0.6);
 }
 
 /*--------------------------------------------------------------
