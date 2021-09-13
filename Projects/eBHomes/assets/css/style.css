@@ -8,6 +8,7 @@
   --white: #fff;
   --light: #e4e4e4;
   --black: #000;
+  --grey: #868383;
 
   /* font typography */
   --body-font: "Fira Sans", sans-serif;
@@ -86,7 +87,7 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  background: var(--black);
+  background: var(--grey);
 }
 
 #header .logo h1 {
@@ -498,7 +499,9 @@ h6 {
 
 #about .about-img-1 {
   height: 510px;
+  width: 960px;
   overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.514);
 }
 
 #about .about-img-1 img {
@@ -508,7 +511,7 @@ h6 {
 
 #about #try1 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/eBH5.JPG") fixed left center;
-  background-size: 960px 1100px;
+  background-size: 1350px 1200px;
 }
 
 #about #try2 {
@@ -530,13 +533,13 @@ h6 {
 
 #about #try5 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/eBH9.jpeg") fixed center left;
-  background-size: 1000px 1100px;
+  background-size: 1000px 1200px;
   background-repeat: no-repeat;
 }
 
 #about #try6 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/eBH4.jpeg") fixed center right;
-  background-size: 1200px 1000px;
+  background-size: 1200px 900px;
   background-repeat: no-repeat;
 }
 
@@ -557,21 +560,30 @@ h6 {
 }
 
 #about .content-1 p {
-  line-height: 30px;
-  font-size: 1.2rem;
+  line-height: 32px;
+  font-size: 1rem;
   padding-right: 100px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 #about .content-1 p:last-child {
   margin-bottom: 0;
 }
 
+#about #BP {
+  background: var(--white);
+}
+
+#about #b {
+  background: var(--white);
+}
+
 /* about 2 */
 #about .content-2 p {
-  line-height: 30px;
-  font-size: 1.2rem;
-  margin-left: 100px;
+  line-height: 32px;
+  font-size: 1rem;
+  margin-left: 10px;
+  color: var(--black);
 }
 
 #about .content-2 p:last-child {
@@ -580,7 +592,9 @@ h6 {
 
 #about .about-img-2 {
   height: 510px;
+  width: 960px;
   overflow: hidden;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.514);
 }
 
 #about .about-img-2 img {
