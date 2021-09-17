@@ -47,8 +47,8 @@ h6 {
   bottom: 15px;
   z-index: 998;
   background: #67b0d1;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   border-radius: 50px;
   transition: all 0.4s;
 }
@@ -552,7 +552,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
+  background: url("../img/about-bg.png") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -849,7 +849,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
   position: absolute;
   left: 0;
   right: 0;
@@ -1246,6 +1246,7 @@ section {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 2rem;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
