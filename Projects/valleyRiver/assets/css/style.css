@@ -496,7 +496,7 @@ section {
   }
 }
 
-/* ============================= Services =============================*/
+/* ============================= goals =============================*/
 .goals .icon-box {
   text-align: center;
   padding: 80px 20px;
@@ -667,7 +667,101 @@ section {
   }
 }
 
-/* ============================= Details =============================*/
+/* ============================= services =============================*/
+#services {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#services .row {
+  align-items: center;
+  justify-content: center;
+}
+
+#services .details-img-1 {
+  height: 700px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.514);
+}
+
+#services .details-img-1 img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+#services #content1 {
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed left center;
+  background-size: 900px 1200px;
+}
+
+#services #content2 {
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed center right;
+  background-size: 900px 1200px;
+}
+
+@media (max-width: 768px) {
+  #services .details-img-1 {
+    height: auto;
+  }
+  #services .details-img-1 img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#services .content-1 p {
+  line-height: 32px;
+  font-size: 1rem;
+  padding-right: 100px;
+  margin-left: 50px;
+}
+
+#services .content-1 p:last-child {
+  margin-bottom: 0;
+}
+
+#services #BP {
+  background: var(--white);
+}
+
+#services #b {
+  background: var(--white);
+}
+
+/* details 2 */
+#services .content-2 p {
+  line-height: 32px;
+  font-size: 1rem;
+  margin-left: 10px;
+  color: var(--black);
+}
+
+#services .content-2 p:last-child {
+  margin-bottom: 0;
+}
+
+#services .details-img-2 {
+  height: 700px;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.514);
+}
+
+#services .details-img-2 img {
+  margin-left: 145px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #services .details-img-2 {
+    height: auto;
+  }
+  #services .details-img-2 img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+/* ============================= vProject =============================*/
 .vProject {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed center center;
   background-size: cover;
@@ -1059,6 +1153,154 @@ section {
 .blog .blog-pagination li:hover a {
   color: #fff;
 }
+
+/* ============================= serHero =============================*/
+#serHero {
+  width: 100%;
+  height: calc(80vh - 110px);
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#serHero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#serHero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#serHero h2 {
+  color: #eee;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+#serHero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#serHero .btn-get-started:hover {
+  background: #cc1616;
+  border-color: #cc1616;
+}
+
+@media (min-width: 1024px) {
+  #serHero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #serHero {
+    text-align: center;
+  }
+  #serHero .container {
+    padding-top: 40px;
+  }
+  #serHero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #serHero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* ============================= conHero =============================*/
+#conHero {
+  width: 100%;
+  height: calc(90vh - 110px);
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#conHero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#conHero .info-wrap {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+}
+
+#conHero .info i {
+  font-size: 20px;
+  color: red;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#conHero .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#conHero .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: rgb(202, 0, 0);
+}
+
+@media (max-width: 768px) {
+  #conHero {
+    text-align: center;
+  }
+  #conHero .container {
+    padding-top: 40px;
+  }
+  #conHero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #conHero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+*/
 
 /* ============================= Contact =============================*/
 .contact .info {
