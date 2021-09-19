@@ -1276,7 +1276,7 @@ section {
 /* ============================= serHero =============================*/
 #serHero {
   width: 100%;
-  height: calc(80vh - 110px);
+  height: calc(40vh - 110px);
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
