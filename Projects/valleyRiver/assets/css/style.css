@@ -1,32 +1,31 @@
 /* root */
 
 :root {
-  --color1: #fff;
-  --color2: #fff;
-  --color3: #fff;
-  --color4: #fff;
-  --color5: #fff;
+  --color1: rgb(116, 42, 255);
+  --color2: rgb(63, 12, 202);
+  --color3: rgb(7, 0, 31);
+  --color4: rgb(40, 19, 107);
+  --color5: #444444;
   --white: #fff;
   --black: #000;
 
-  -font-family1: "Some Font Here";
-  -font-family2: "Some Font Here";
-  -font-family3: "Some Font Here";
+  --font-family1: "Raleway", sans-serif;
+  --font-family2: "Ubuntu", sans-serif;
 }
 
 /* ============================= General =============================*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: var(--font-family1);
+  color: var(--color5);
 }
 
 a {
-  color: #cc1616;
+  color: var(--color1);
   text-decoration: none;
 }
 
 a:hover {
-  color: #e82d2d;
+  color: var(--color2);
   text-decoration: none;
 }
 
@@ -2127,7 +2126,7 @@ section {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 50px;
+  border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
