@@ -57,6 +57,7 @@ h6 {
   width: 40px;
   height: 40px;
   transition: all 0.4s;
+  border-radius: 4px;
 }
 
 .back-to-top i {
@@ -1498,7 +1499,7 @@ section {
 /* ============================= abtHero =============================*/
 #abtHero {
   width: 100%;
-  height: calc(50vh - 110px);
+  height: calc(40vh - 110px);
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -1731,7 +1732,7 @@ section {
 /* ============================= conHero =============================*/
 #conHero {
   width: 100%;
-  height: calc(90vh - 110px);
+  height: calc(80vh - 110px);
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -1812,7 +1813,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #f0f6e5;
+  background: lightgrey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1832,7 +1833,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: var(--color1);
+  color: var(--black);
 }
 
 .contact .info .email,
@@ -1968,7 +1969,7 @@ section {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 3px;
-  color: var(--color1);
+  color: var(--white);
 }
 
 #footer .footer-top .footer-info p {
@@ -2001,7 +2002,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: col;
+  background: var(--color5);
   color: #fff;
   text-decoration: none;
 }
