@@ -728,7 +728,7 @@ section {
 
 #services #content1 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/customhome3.jpg") fixed left center;
-  background-size: 900px 1200px;
+  background-size: 950px 1200px;
 }
 
 #services #content2 {
@@ -1754,7 +1754,7 @@ section {
 }
 
 #conHero .info-wrap {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   padding: 30px;
 }
 
