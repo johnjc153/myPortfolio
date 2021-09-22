@@ -1,18 +1,25 @@
 /* root */
 
 :root {
-  --color1: rgb(116, 42, 255);
+  /* --color1: rgb(116, 42, 255);
   --color2: rgb(63, 12, 202);
   --color3: rgb(7, 0, 31);
   --color4: rgb(40, 19, 107);
   --color5: #444444;
-  --color6: #191919;
+  --color6: #191919; */
+
+  --color1: #9c2626;
+  --color2: #fd0000;
+  --color3: rgb(236, 228, 223);
+  --color4: rgb(126, 58, 49);
+  --color5: #444444;
+  --color6: #666663;
   --white: #fff;
   --black: #000;
   --box-shadow: rgba(0, 0, 0, 0.15);
   --light-hover: rgba(255, 255, 255, 0.6);
   --dark-hover: rgba(44, 44, 44, 0.6);
-  --color-hover: rgba(112, 72, 165, 0.6);
+  --color-hover: rgba(190, 190, 175, 0.4);
   --hero-hover: rgba(114, 110, 121, 0.6);
 
   --font-family1: "Raleway", sans-serif;
@@ -31,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: var(--color2);
+  color: var(--color4);
   text-decoration: none;
 }
 
@@ -109,7 +116,7 @@ h6 {
 
 /* ============================= Top Bar =============================*/
 #topbar {
-  background: var(--black);
+  background: var(--color5);
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -633,13 +640,13 @@ section {
 
 #details #try1 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/custombuilding1.jpg") fixed left center;
-  background-size: 900px 1200px;
+  background-size: 953px 1000px;
 }
 
 #details #try2 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)),
     url("../img/custombuilding2.jpg") fixed center right;
-  background-size: 900px 1200px;
+  background-size: 953px 1000px;
 }
 
 @media (max-width: 768px) {
@@ -728,7 +735,7 @@ section {
 
 #services #content1 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/customhome3.jpg") fixed left center;
-  background-size: 950px 1200px;
+  background-size: 952px 900px;
 }
 
 #services #content2 {
@@ -1831,7 +1838,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--color2);
+  color: var(--color1);
 }
 
 .contact .info p {
