@@ -605,6 +605,10 @@ section {
   color: var(--white);
 }
 
+.goals .post-entry img {
+  height: 30vh;
+}
+
 /* ============================= Details =============================*/
 #details {
   padding: 60px 0;
@@ -628,12 +632,13 @@ section {
 }
 
 #details #try1 {
-  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed left center;
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/custombuilding1.jpg") fixed left center;
   background-size: 900px 1200px;
 }
 
 #details #try2 {
-  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed center right;
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)),
+    url("../img/custombuilding2.jpg") fixed center right;
   background-size: 900px 1200px;
 }
 
@@ -722,13 +727,13 @@ section {
 }
 
 #services #content1 {
-  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed left center;
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/customhome3.jpg") fixed left center;
   background-size: 900px 1200px;
 }
 
 #services #content2 {
-  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed center right;
-  background-size: 900px 1200px;
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/goals.jpg") fixed center right;
+  background-size: 950px 1000px;
 }
 
 @media (max-width: 768px) {
@@ -816,12 +821,12 @@ section {
 }
 
 #projects #content1 {
-  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed left center;
-  background-size: 900px 1200px;
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/commercial.jpg") fixed left center;
+  background-size: 950px 1000px;
 }
 
 #projects #content2 {
-  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed center right;
+  background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/residential.jpg") fixed center right;
   background-size: 900px 1200px;
 }
 
