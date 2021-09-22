@@ -735,7 +735,7 @@ section {
 
 #services #content1 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/customhome3.jpg") fixed left center;
-  background-size: 952px 900px;
+  background-size: 1500px 900px;
 }
 
 #services #content2 {
@@ -829,12 +829,12 @@ section {
 
 #projects #content1 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/commercial.jpg") fixed left center;
-  background-size: 950px 1000px;
+  background-size: 951px 1000px;
 }
 
 #projects #content2 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/residential.jpg") fixed center right;
-  background-size: 900px 1200px;
+  background-size: 951px 975px;
 }
 
 @media (max-width: 768px) {
