@@ -516,62 +516,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
+# services
 --------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background-color: #f8fbfd;
-  min-height: 40px;
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-.about {
-  background: url("../img/about-bg.png") center center no-repeat;
-  background-size: cover;
+.services {
+  background: url("../img/about-bg.jpg") center center no-repeat;
+  /* background-size: cover; */
   padding: 60px 0;
   position: relative;
 }
 
-.about::before {
+.services::before {
   content: "";
   position: absolute;
   left: 0;
@@ -582,27 +536,27 @@ section {
   z-index: 9;
 }
 
-.about .container {
+.services .container {
   position: relative;
   z-index: 10;
 }
 
-.about .content {
+.services .content {
   padding: 30px 30px 30px 0;
 }
 
-.about .content h3 {
+.services .content h3 {
   font-weight: 700;
   font-size: 34px;
   color: #2f4d5a;
   margin-bottom: 30px;
 }
 
-.about .content p {
+.services .content p {
   margin-bottom: 30px;
 }
 
-.about .content .about-btn {
+.services .content .services-btn {
   display: inline-block;
   background: var(--color1);
   padding: 6px 44px 8px 30px;
@@ -612,116 +566,48 @@ section {
   position: relative;
 }
 
-.about .content .about-btn i {
+.services .content .services-btn i {
   font-size: 18px;
   position: absolute;
   right: 18px;
   top: 9px;
 }
 
-.about .content .about-btn:hover {
+.services .content .services-btn:hover {
   background: var(--color2);
 }
 
-.about .icon-boxes .icon-box {
+.services .icon-boxes .icon-box {
   margin-top: 30px;
 }
 
-.about .icon-boxes .icon-box i {
+.services .icon-boxes .icon-box i {
   font-size: 40px;
   color: var(--color1);
   margin-bottom: 10px;
 }
 
-.about .icon-boxes .icon-box h4 {
+.services .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
-.about .icon-boxes .icon-box p {
+.services .icon-boxes .icon-box p {
   font-size: 15px;
   color: var(--color3);
 }
 
 @media (max-width: 1200px) {
-  .about .content {
+  .services .content {
     padding-right: 0;
   }
 }
 
 @media (max-width: 768px) {
-  .about {
+  .services {
     text-align: center;
   }
-}
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
-}
-
-.services .icon-box::before {
-  content: "";
-  position: absolute;
-  background: var(--white);
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.3s;
-  z-index: -1;
-}
-
-.services .icon-box:hover::before {
-  background: var(--color1);
-  top: 0;
-  border-radius: 0px;
-}
-
-.services .icon {
-  margin-bottom: 15px;
-}
-
-.services .icon i {
-  font-size: 48px;
-  line-height: 1;
-  color: var(--color1);
-  transition: all 0.3s ease-in-out;
-}
-
-.services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: var(--black);
-}
-
-.services .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover .title a,
-.services .icon-box:hover .description {
-  color: var(--white);
-}
-
-.services .icon-box:hover .icon i {
-  color: var(--white);
 }
 
 /*--------------------------------------------------------------
@@ -771,7 +657,7 @@ section {
 }
 
 .portfolio img {
-  height: 30vh;
+  height: 25vh;
 }
 
 .portfolio #portfolio-flters {
@@ -1125,7 +1011,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact button[type="submit"] {
   background: var(--color1);
   border: 0;
   padding: 10px 24px;
@@ -1134,7 +1020,7 @@ section {
   border-radius: 2rem;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact button[type="submit"]:hover {
   background: var(--color2);
 }
 
