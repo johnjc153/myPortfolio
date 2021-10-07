@@ -136,6 +136,10 @@ h6 {
   #header.header-scrolled {
     padding: 15px 0;
   }
+
+  #header .logo img {
+    max-height: 35px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -656,9 +660,9 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio img {
-  height: 25vh;
-}
+/* .portfolio img {
+  width: 100%;
+} */
 
 .portfolio #portfolio-flters {
   padding: 0;
