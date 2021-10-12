@@ -103,22 +103,17 @@ h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid var(--color2);
+  border: 2px solid var(--color1);
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: var(--color2);
+  color: var(--color1);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: var(--color2);
-  color: var(--color2);
-}
-
-.back-to-top:hover i {
-  color: var(--color6);
+  background: var(--black);
 }
 
 .back-to-top.active {
