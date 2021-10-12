@@ -269,6 +269,4 @@
     })
   });
 
-  alert("code : Lt is gay  ")
-
 })()
